@@ -78,56 +78,96 @@ html, body {
     height: 230px;
 }
 
-.top-segment {
+.upper-selector div {
     display: flex;
     justify-content: space-around;
     height: 50%;
 }
 
-.upper {
+.upper-selector .top {
     align-items: flex-end;
 }
 
-.lower {
+.upper-selector .bottom {
     align-items: center;
 }
 
-.upper span {
+.upper-selector .top span {
     font-size: 24px;
 }
 
-.lower span {
+.upper-selector .bottom span {
     font-family: Orbitron;
     font-size: 21px;
     line-height: 1.42857143;
 }
 
-.top-segment i {
+.upper-selector i {
     width: 14px;
     height: 14px;
 }
 
-#container > div:nth-child(2) {
+.lower-selector {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.bottom-segment {
+.lower-selector .top {
     height: 56px;
     padding-top: 5px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.bottom-segment i {
+.lower-selector .top i {
     height: 42px;
 }
 
-.bottom-segment i:first-child {
+.lower-selector .top i:first-child {
     width: 33px;
 }
 
-.bottom-segment i:nth-child(2) {
+.lower-selector .top i:nth-child(2) {
     width: 36px;
+}
+
+.lower-selector span:nth-child(2) {
+    font-size: 30px;
+}
+
+.lower-selector span:nth-child(3) {
+    font-family: Orbitron;
+    font-size: 56px;
+    line-height: 1.42857143;
+}
+
+.lower-selector .bottom {
+    height: 56px;
+    padding-bottom: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lower-selector .bottom i {
+    width: 36px;
+    height: 42px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #333;
+}
+
+.lower-selector i:hover {
+    color: #BFAD7C;
 }

@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>Pomodoro</title>
+		<link rel="shotcut icon" type="image/x-icon" href="http://romantic-trouble.surge.sh/images/favicon.ico">
 		<link type="text/css" rel="stylesheet" href="stylesheet.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
 		
@@ -9,28 +10,31 @@
 	<body>
 		<div id="container">
 			<h1>Pomodoro Clock</h1>
-			<div>
-				<div class="top-segment upper">
+			<div class="upper-selector">
+				<div class="top">
 					<span>Session</span>
 					<span>Break</span>
 				</div>
-				<div class="top-segment lower">
-					<i class="fa fa-chevron-down fa-1x"></i>
+				<div class="bottom">
+					<a href="#"><i class="fa fa-chevron-down fa-1x"></i></a>
 					<span>25</span>
-					<i class="fa fa-chevron-up fa-1x"></i>
-					<i class="fa fa-chevron-down fa-1x"></i>
+					<a href="#"><i class="fa fa-chevron-up fa-1x"></i></a>
+					<a href="#"><i class="fa fa-chevron-down fa-1x"></i></a>
 					<span>5</span>
-					<i class="fa fa-chevron-up fa-1x"></i>
+					<a href="#"><i class="fa fa-chevron-up fa-1x"></i></a>
 				</div>
 			</div>
-			<div>
-				<div class="bottom-segment">
-					<i class="fa fa-play fa-3x"></i>
-					<i class="fa fa-refresh fa-3x"></i>
+			<div class="lower-selector">
+				<div class="top">
+					<a href="#"><i class="fa fa-play fa-3x"></i></a>
+					<a href="#"><i class="fa fa-refresh fa-3x"></i></a>
 				</div>
-				<span></span>
-				<span></span>
-				<div></div>
+				<span>Session</span>
+				<span>25:00</span>
+				<div class="bottom">
+					<a href="#"><i class="fa fa-pause fa-3x"></i></a>
+					<a href="#"><i class="fa fa-stop fa-3x"></i></a>
+				</div>
 			</div>
 		</div>
 		<script
