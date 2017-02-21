@@ -41,3 +41,93 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+html, body {
+    background-color: grey;
+    height: 100%;
+}
+
+#container {
+    width: 450px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 50%;
+    font-family: Oswald;
+    font-weight: bold;
+    line-height: 1.1;
+    color: white;
+}
+
+#container h1 {
+    font-size: 54px;
+    color: #333;
+    text-align: center;
+}
+
+#container > div {
+    background-color: black;
+}
+
+#container > div:nth-child(2) {
+    height: 95px;
+    margin-bottom: 15px;
+}
+
+#container > div:nth-child(3) {
+    height: 230px;
+}
+
+.top-segment {
+    display: flex;
+    justify-content: space-around;
+    height: 50%;
+}
+
+.upper {
+    align-items: flex-end;
+}
+
+.lower {
+    align-items: center;
+}
+
+.upper span {
+    font-size: 24px;
+}
+
+.lower span {
+    font-family: Orbitron;
+    font-size: 21px;
+    line-height: 1.42857143;
+}
+
+.top-segment i {
+    width: 14px;
+    height: 14px;
+}
+
+#container > div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-segment {
+    height: 56px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottom-segment i {
+    height: 42px;
+}
+
+.bottom-segment i:first-child {
+    width: 33px;
+}
+
+.bottom-segment i:nth-child(2) {
+    width: 36px;
+}
