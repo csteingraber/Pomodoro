@@ -171,3 +171,15 @@ a:hover {
 .lower-selector i:hover {
     color: #BFAD7C;
 }
+
+.go {
+    color: green;
+}
+
+.warning {
+    color: yellow;
+}
+
+.stop {
+    color: red;
+}
